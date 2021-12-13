@@ -2,6 +2,7 @@ import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
 import Error404 from './components/404'
+import Welcome from './components/welcome'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Error404 />
+        <Welcome />
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
         <p>
