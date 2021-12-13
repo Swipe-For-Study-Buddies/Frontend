@@ -2,7 +2,7 @@ import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
 import Error404 from './components/404'
-import Welcome from './components/welcome'
+import Welcome from './components/Welcome'
 
 function App() {
   const [count, setCount] = useState(0)
